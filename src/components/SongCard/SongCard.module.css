@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 85px;
+  padding: 16px 0px;
+  border-bottom: 1px solid var(--white-color);
+}
+
+.imageDiv {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 250px;
+}
+
+.imageDiv img {
+  width: 59px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.imageDiv p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

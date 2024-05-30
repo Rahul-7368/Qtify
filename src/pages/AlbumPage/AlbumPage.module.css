@@ -1,0 +1,104 @@
+.albumWrapper {
+  margin-bottom: 150px;
+}
+
+.arrowDiv {
+  margin-left: 78px;
+  margin-top: 24px;
+}
+
+.wrapper {
+  margin-left: 85px;
+  margin-top: 30px;
+  margin-bottom: 38px;
+  display: flex;
+}
+
+.wrapper img {
+  width: 288px;
+  height: 329px;
+  border-radius: 20px;
+  border: 12px solid #121212;
+  object-fit: cover;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contentDiv h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contentDiv p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contentDiv > p > span::after {
+  color: #fff;
+  content: "\B7";
+  vertical-align: middle;
+  font-family: Font Awesome 6 Pro;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 24px;
+}
+
+.shuffleBtn {
+  display: inline-flex;
+  cursor: pointer;
+  padding: 10px 17px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--primary-400, #34c94b);
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.libraryBtn {
+  display: inline-flex;
+  padding: 10px 17px;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--primary-400, #34c94b);
+  background: #121212;
+  color: var(--primary-400, #34c94b);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
